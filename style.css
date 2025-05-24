@@ -11,15 +11,15 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-/* html,
+html,
 body,
 .main-content,
 .comments-box { 
-  overflow: auto !important;
+/*   overflow: auto !important; */
   scrollbar-width: none;
   -ms-overflow-style: none;
   overscroll-behavior: none;
-} */
+}
 
 body.allow-scroll {
   height: auto;
