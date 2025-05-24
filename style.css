@@ -4,6 +4,18 @@
   box-sizing: border-box;
 }
 
+img {
+  outline: none;
+  border: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+img:focus {
+  outline: none;
+}
+
+
 html,
 body {
   height: 100%;
