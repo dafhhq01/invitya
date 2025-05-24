@@ -2929,6 +2929,15 @@ body.allow-scroll {
   animation-play-state: paused;
 }
 
+.music-icon img,
+.music-icon {
+  outline: none;
+  border: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+
 @keyframes rotateDisk {
   0% {
     transform: rotate(0deg);
