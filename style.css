@@ -11,7 +11,7 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-html,
+/* html,
 body,
 .main-content,
 .comments-box { 
@@ -19,7 +19,7 @@ body,
   scrollbar-width: none;
   -ms-overflow-style: none;
   overscroll-behavior: none;
-}
+} */
 
 body.allow-scroll {
   height: auto;
