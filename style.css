@@ -1060,6 +1060,9 @@ body.allow-scroll {
   cursor: pointer;
   font-size: 0.6em;
   transition: background-color 0.3s ease;
+  outline: none;
+  box-shadow: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .maps-button:hover {
@@ -1191,6 +1194,9 @@ body.allow-scroll {
   font-size: 0.6em;
   transition: background-color 0.3s ease, transform 0.3 ease;
   will-change: transform;
+  outline: none;
+  box-shadow: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .div-button-2 {
