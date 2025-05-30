@@ -2064,6 +2064,9 @@ body.allow-scroll {
   font-size: 0.6em;
   transition: background-color 0.3s;
   z-index: 3;
+  outline: none;
+  box-shadow: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .copy-button-gift-3 {
@@ -2083,6 +2086,15 @@ body.allow-scroll {
   font-size: 0.6em;
   transition: background-color 0.3s;
   z-index: 3;
+  outline: none;
+  box-shadow: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.copy-button-gift:focus,
+.copy-button-gift-3:focus {
+  outline: none;
+  box-shadow: none;
 }
 
 .copy-button-gift:hover {
@@ -2515,6 +2527,9 @@ body.allow-scroll {
   border-radius: 25px;
   cursor: pointer;
   transition: background 0.3s;
+  outline: none;
+  box-shadow: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .rsvp-button:hover {
